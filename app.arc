@@ -4,6 +4,7 @@ begin-app
 @http
 get  /todos
 get  /fast
+get  /session
 post /photo
 post /todos/delete
 
