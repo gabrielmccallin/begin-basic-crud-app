@@ -5,7 +5,7 @@ async function addOne (req) {
   let session = { count }
   let location = '/'
   return {
-    statusCode: 307,
+    statusCode: 200,
     session,
     location
   }
