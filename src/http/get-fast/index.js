@@ -1,5 +1,3 @@
-const data = require('@begin/data')
-
 exports.handler = async function fast (req) {
   return {
     statusCode: 200,
