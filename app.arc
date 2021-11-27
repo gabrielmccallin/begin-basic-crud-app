@@ -3,7 +3,7 @@ begin-app
 
 @http
 get  /todos
-post /todos
+post /photo
 post /todos/delete
 
 @tables

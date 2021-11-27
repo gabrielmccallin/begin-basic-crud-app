@@ -6,7 +6,7 @@ exports.handler = async function post (req) {
   photo.created = todo.created || Date.now()
   await data.set({
     table: 'photos',
-    ...photo
+    ...todo
   })
   return {
     statusCode: 302,
