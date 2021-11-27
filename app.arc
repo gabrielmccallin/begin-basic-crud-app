@@ -3,6 +3,7 @@ begin-app
 
 @http
 get  /todos
+get  /fast
 post /photo
 post /todos/delete
 
