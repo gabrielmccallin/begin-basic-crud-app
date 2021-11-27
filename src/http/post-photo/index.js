@@ -2,8 +2,9 @@ let arc = require('@architect/functions')
 let data = require('@begin/data')
 
 exports.handler = async function post (req) {
+  let photo;
   try {
-    let photo = arc.http.helpers.bodyParser(req) // Base64 decodes + parses body
+    photo = arc.http.helpers.bodyParser(req) // Base64 decodes + parses body
   } catch {
     return {
       statusCode: 400,
