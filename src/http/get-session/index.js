@@ -7,7 +7,8 @@ async function addOne (req) {
   return {
     statusCode: 200,
     session,
-    location
+    location,
+    body: JSON.stringify(session)
   }
 }
 
